@@ -1,10 +1,10 @@
 # Site settings
 title:            Angel Solutions Labs
 description:      Education, technology and business
-#logo:             site-logo.png
+logo:             logo.png
 
 # Assign a default image for your site's header and footer
-default_bg:       images/angelcover.jpg
+default_bg:       angelcover.jpg
 search:           true
 share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
