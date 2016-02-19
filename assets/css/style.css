@@ -134,7 +134,7 @@ main, .notepad-share-icons, .notepad-disqus {
               border-bottom: 0.1875rem solid #e51843; } }
 
 .notepad-site-head .notepad-site-head-menu {
-  background: white; }
+  background: black; }
   .notepad-site-head .notepad-site-head-menu .notepad-blog-logo {
     display: inline-block;
     max-height: 5rem; }
@@ -167,7 +167,7 @@ main, .notepad-share-icons, .notepad-disqus {
   .notepad-site-head .notepad-site-head-content .notepad-site-head-title-bg {
     display: inline-block;
     padding: 0.625rem;
-    background: #e51843;
+    background: #5bace0;
     line-height: 1.1; }
   .notepad-site-head .notepad-site-head-content h1, .notepad-site-head .notepad-site-head-content h2 {
     margin: 0;
