@@ -19,6 +19,19 @@ url:              "http://angelsolutions.github.io/labs"
 #baseurl: "http://lpl-ad-dwilliams/design/labs"
 destination: "C:/inetpub/wwwroot/design/labs"
 
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+    external: false
+    icon: home
+  - title: Categories
+    url: /categories
+  - title: Tags
+    url: /tags
+  - title: About
+    url: /about
 
 # Build settings
 markdown: kramdown
