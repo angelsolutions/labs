@@ -12,5 +12,5 @@ chart: true
 	<figcaption>The John Winstanley</figcaption>
 </figure>
 
-About John
+About the author 
 
