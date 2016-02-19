@@ -19,6 +19,11 @@ url:              "http://angelsolutions.github.io/labs"
 #baseurl: "http://lpl-ad-dwilliams/design/labs"
 destination: "C:/inetpub/wwwroot/design/labs"
 
+owner:
+  name:           John Winstanley
+  avatar:         jw.jpg
+  email:          your@email.com
+
 # Links to include in top navigation
 # For external links add external: true
 links:
