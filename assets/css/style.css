@@ -160,8 +160,14 @@ main, .notepad-share-icons, .notepad-disqus {
 .notepad-site-head .notepad-site-head-content {
   width: 100%;
   text-align: center;
-  background-color: black;
-  background-size: cover; }
+  background-size: cover;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3e54c0+0,1ebcaf+59,d585c5+100 */
+  background: rgb(62,84,192); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(62,84,192,1) 0%, rgba(30,188,175,1) 59%, rgba(213,133,197,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  rgba(62,84,192,1) 0%,rgba(30,188,175,1) 59%,rgba(213,133,197,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  rgba(62,84,192,1) 0%,rgba(30,188,175,1) 59%,rgba(213,133,197,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e54c0', endColorstr='#d585c5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+   }
   .notepad-site-head .notepad-site-head-content.with-bg-cover {
     background-color: rgba(0, 0, 0, 0.7); }
   .notepad-site-head .notepad-site-head-content .notepad-site-head-title-bg {
