@@ -14,7 +14,7 @@ animated_fins:    true
 # Specify the fin color in RGB value
 fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
-#url:              "http://angelsolutions.github.io/labs"
+#url:     "http://angelsolutions.github.io/labs"
 #url:     "http://lpl-ad-dwilliams/design/labs"
 #baseurl: "http://lpl-ad-dwilliams/design/labs"
 destination: "C:/inetpub/wwwroot/design/labs"
