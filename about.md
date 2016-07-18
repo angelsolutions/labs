@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 permalink: /about/index.html
 title: About This blog
 tags: [Angel, Education, Labs, Data, Blog]
