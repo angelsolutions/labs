@@ -36,13 +36,163 @@
 
 
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,300,800,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lily+Script+One|Oswald:300, 400,700|Open+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="{{ site.url }}/assets/css/vendor/font-awesome.min.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/vendor/normalize.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/vendor/nprogress.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/vendor/foundation.min.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/post.css">
+
+<style>
+  .page-nav {
+      font-family: "Oswald",Arial,Helvetica,sans-serif;
+      font-size: 20px;
+      text-transform: uppercase;
+      background: #008CD3;
+  } 
+
+  .page-width {
+      margin: 0 auto;
+      max-width: 1100px;
+      width: 95%;
+  } 
+
+  .text--center {
+      text-align: center !important;
+  }
+
+  .page-nav .js-mobile-nav {
+      display: block;
+      margin-top: 0;
+      color: white;
+  }
+
+  @media only screen and (min-width: 940px) {
+  .accessibility--desk, .visuallyhidden--desk {
+      border: 0 !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      padding: 0 !important;
+      position: absolute !important;
+      width: 1px !important;
+  }
+
+}
+
+  .menu-angelroot-container {
+      text-align: center;
+  }
+
+  .page-nav .nav a, .page-nav .nav {
+      color: white;
+      text-shadow: 0 1px 1px #000;
+      letter-spacing: 1px;
+      letter-spacing: 0.05556rem;
+      text-decoration: none;
+  }
+
+  .flush {
+      margin: 0 !important;
+      margin: 0 !important;
+  }
+
+  .nav {
+      list-style: none;
+  }
+
+  .nav>li, .nav>li>a {
+      display: inline-block;
+  }
+
+  @media only screen and (min-width: 940px) {
+  .page-nav .nav a {
+      padding: 4px 29px;
+      padding: 0.22222rem 1.61111rem;
+  }
+}
+
+  .page-nav .nav a {
+      padding: 4px 16px;
+      margin: 6px 0;
+      margin: 0.33333rem 0;
+      font-weight: 300;
+      font-size: 20px;
+  }
+
+  .page-nav .nav a, .page-nav .nav {
+      color: white;
+      text-shadow: 0 1px 1px #000;
+      letter-spacing: 1px;
+      letter-spacing: 0.05556rem;
+      text-decoration: none;
+  }
+
+  .page-nav .nav a:hover, .page-nav .nav .current_page_item a {
+      background: white;
+      color: #292C33;
+      text-shadow: none;
+      border-radius: 1em;
+  }
+
+  @media only screen and (max-width: 939px) and (min-width: 481px) {
+  .accessibility--lap, .visuallyhidden--lap {
+      border: 0 !important;
+      clip: rect(0 0 0 0) !important;
+      height: 1px !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      padding: 0 !important;
+      position: absolute !important;
+      width: 1px !important;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+.accessibility--palm, .visuallyhidden--palm {
+    border: 0 !important;
+    clip: rect(0 0 0 0) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+}
+}
+
+@media only screen and (max-width: 939px) and (min-width: 481px) {
+.menu-angelroot-container li {
+    display: block !important;
+}
+}
+
+@media only screen and (max-width: 939px) and (min-width: 481px) {
+.page-nav .nav a {
+    display: block !important;
+}
+}
+
+@media only screen and (max-width: 939px) and (min-width: 481px) {
+.page-nav {
+    padding: 8px 0;
+}
+}
+
+.js-mobile-nav svg, .typicons--home + svg {
+    fill: white;
+    outline: white;
+    top: 3px;
+    position: relative;
+}
+
+.page-nav .nav a:hover .typicons--home + svg  {
+    fill: #292C33;
+}
+</style>
+
+
 
 
 {% if page.mathjax %}
